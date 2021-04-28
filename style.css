@@ -278,6 +278,7 @@ button:hover {
         display: grid;
         padding-top: 3em;
         padding-bottom: 3em;
+        width: 100vw;
     }
 
     footer .logo {
