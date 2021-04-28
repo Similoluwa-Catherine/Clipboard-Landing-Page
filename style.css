@@ -278,26 +278,16 @@ button:hover {
         display: grid;
         padding-top: 3em;
         padding-bottom: 3em;
-        align-items: center;
-    }
-
-    footer .logo {
-        width: 50px;
-        height: 50px;
-        margin-left: 200px;
-        margin-right: 170px;
-        align-items: center;
     }
 
     .footer-icon {
-        margin: 50px 0 0 0px;
+        margin: 50px 0 0 100px;
     }
 
     .link {
-        margin-left: 90px;
-        margin-right: 2px;
+        margin-left: 180px;
+        margin-right: 0;
         margin-top: 30px;
-        align-items: center;
     }
     
     a {
@@ -313,6 +303,13 @@ button:hover {
 
     header > img {
         width: 100vw;
+    }
+
+    footer > .logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 199px;
+        margin-right: 0;
     }
 
 
