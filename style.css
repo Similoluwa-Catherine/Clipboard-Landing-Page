@@ -267,7 +267,7 @@ button:hover {
 
     .five {
         display: grid;
-        padding: 100px -90px 100px -80px;
+        padding: 100px 0 100px 175px;
     }
 
     .five img {
