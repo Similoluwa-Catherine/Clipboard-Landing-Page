@@ -267,7 +267,7 @@ button:hover {
 
     .five {
         display: grid;
-        padding: 100px 180px 100px 180px;
+        padding: 100px auto;
     }
 
     .five img {
@@ -278,7 +278,7 @@ button:hover {
         display: grid;
         padding-top: 3em;
         padding-bottom: 3em;
-        width: 100vw;
+        align-items: center;
     }
 
     footer .logo {
@@ -286,16 +286,18 @@ button:hover {
         height: 50px;
         margin-left: 200px;
         margin-right: 170px;
+        align-items: center;
     }
 
     .footer-icon {
-        margin: 50px 0 0 15px;
+        margin: 50px 0 0 0px;
     }
 
     .link {
         margin-left: 90px;
         margin-right: 2px;
         margin-top: 30px;
+        align-items: center;
     }
     
     a {
@@ -306,6 +308,7 @@ button:hover {
 
     .icon {
         margin-left: 35px;
+        align-items: center;
     }
 
     header > img {
