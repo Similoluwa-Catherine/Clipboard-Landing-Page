@@ -1,0 +1,321 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+body {
+    text-align: center;
+    overflow-x: hidden;
+}
+p {
+    font-size: 14px;
+    margin: 13px 0;
+    line-height: 24px;
+    color: hsl(201, 11%, 66%);
+}
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: hsl(210, 10%, 33%);
+}
+h2 {
+    font-size: 20px;
+    color: hsl(210, 10%, 33%);
+}
+h3 {
+    font-size: 14px;
+    color: hsl(210, 10%, 33%);
+}
+
+header {
+    width: 100%;
+    height: 85px;
+}
+.btn-one {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 2px 1px 1px rgb(88, 150, 147);
+}
+.btn-two {
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 2px 1px 1px rgb(61, 131, 163);
+}
+.two {
+    margin: 85px 0 55px 0;
+}
+
+.computer {
+    width: 600px;
+    margin: 45px 0  45px -150px;
+}
+button {
+    margin: 27px 4px 0 4px;
+    width: 150px;
+    height: 37px;
+    border-radius: 33px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.logo > img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-left: 65px;
+}
+.img_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.text {
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.devices {
+    width: 600px;
+    margin: 50px 0 30px 0;
+}
+
+.icon_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+}
+
+.four-icon {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.four-icon h3 {
+    margin-top: 30px;
+}
+
+.five {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 150px 100px 150px;
+}
+
+.five img {
+    width: 100px;
+    height:28px;
+}
+
+footer {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 243);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+footer > .logo {
+    width: 30px;
+    height: 100%;
+    margin-left: 140px;
+    margin-top: 6px;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 14px;
+    color: rgb(117, 115, 115);
+}
+
+.footer-icon {
+    margin-right: 140px;
+    margin-top: 7px;
+}
+
+.link {
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+.icon {
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+
+@media only screen and (max-width: 840px){
+    body {
+        text-align: center;
+        overflow-x: hidden;
+    }
+    
+    .logo {
+        margin-top: 30px;
+    }
+
+    .logo > img {
+        width: 120%;
+        height: 120%;
+    }
+
+    button {
+        width: 78%;
+        height:50px;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: 15px 0 15px 0;
+        font-size: 16px;
+    }
+
+    .btn-one {
+        margin-top: 50px;
+    }
+
+    .btn-two {
+        margin-top: 25px;
+    }
+
+    p {
+        font-size: 16px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    h1 {
+        margin-top: 60px;
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    .two {
+        margin: 180px 0 60px 0;
+    }
+
+    .computer {
+        width: 350px;
+        margin: auto;
+        padding-top: 3.5em;
+    }
+
+    .img_container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .text {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .image-text {
+        padding-top: 60px;
+        padding-left: .2em;
+        padding-right: .2em;
+    }
+
+    .devices {
+        width: 350px;
+        margin: 50px 0 100px 0;
+    }
+
+    .three {
+        margin-top: 130px;
+    }
+
+    .icon_container {
+        display: grid;
+    }
+
+    .four-icon {
+        margin: auto;
+        padding-top: 2.5em;
+    }
+
+    .five {
+        display: grid;
+        padding: 100px 200px 100px 180px;
+    }
+
+    .five img {
+        margin-bottom: 70px;
+    }
+
+    footer {
+        display: grid;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    footer .logo {
+        width: 50px;
+        height: 50px;
+        margin-left: 200px;
+        margin-right: 170px;
+    }
+
+    .footer-icon {
+        margin: 50px 0 0 15px;
+    }
+
+    .link {
+        margin-left: 90px;
+        margin-right: -3px;
+        margin-top: 30px;
+    }
+    
+    a {
+        display: grid;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    .icon {
+        margin-left: 35px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
